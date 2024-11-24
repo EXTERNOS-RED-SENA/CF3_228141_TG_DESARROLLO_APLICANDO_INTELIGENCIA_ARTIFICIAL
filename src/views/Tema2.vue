@@ -76,7 +76,7 @@
     .row.justify-content-center.mb-3
       .col-lg-9
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 1. 
+          h5 Tabla 2. 
           span Ejemplo de tabla de entrada y salida
         .tabla-a.color-acento-botones.mb-5
           table
@@ -88,9 +88,37 @@
                 th Descripción
             tbody
               tr
-                td 
-                td 
-                td 
+                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td Línea de flujo
+                td Indica la secuencia de operaciones dentro de un proceso. Las flechas se utilizan si el flujo no sigue el orden estándar de arriba hacia abajo o de izquierda a derecha.
+              tr
+                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td Terminal
+                td Representa el inicio o el fin de un programa o subproceso. Generalmente, contiene palabras como "Inicio" o "Fin", o frases que señalan el comienzo o la finalización de un proceso, como "presentar consulta" o "recibir producto".
+              tr
+                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td Proceso o actividad
+                td Denota un conjunto de operaciones que alteran el valor, forma o ubicación de los datos.
+              tr
+                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td Decisión
+                td Muestra una operación condicional que decide cuál de los dos caminos tomará el programa. Suele ser una pregunta con respuesta de sí/no o una evaluación de verdadero/falso.
+              tr
+                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td Entrada
+                td Describe el proceso de introducir datos, ya sea mediante la inserción o el ingreso de información.
+              tr
+                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td Salida
+                td Indica el proceso de producir datos o mostrar resultados.
+              tr
+                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td Anotación (comentario)
+                td Proporciona información adicional sobre un paso específico en el programa.
+              tr
+                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td Proceso predefinido
+                td Refleja un proceso ya definido en otra sección del diagrama, referenciado por su nombre.
     .row.justify-content-center.mb-5
       .col-lg-9
         .p-4(style="background-color:#e6f0fc ")

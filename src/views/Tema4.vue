@@ -158,9 +158,80 @@
           .col-10: img(src='@/assets/curso/temas/61.svg', alt='')
         p.mb-0 #[b Ejemplo:] en una aplicación de noticias, los titulares deben ser más grandes y estar en negrita, mientras que las descripciones pueden tener un tamaño de fuente menor y un color más tenue.
     Separador
-
-
-
+    #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 4.4	Aplicación de técnicas de usabilidad
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/62.png', alt='')
+      .col-lg-9
+        .titulo-tres: h3.mb-0 Pruebas de usabilidad
+        p.mb-0 Se realizan para evaluar cómo interactúan los usuarios con la aplicación y para identificar problemas. Las pruebas pueden ser realizadas con prototipos antes de la implementación final.
+          br
+          br
+          | #[b Ejemplo:] un grupo de usuarios prueba un prototipo de una aplicación de mensajería y proporciona retroalimentación sobre la facilidad de enviar mensajes o adjuntar archivos.
+    .titulo-tres: h3.mb-0 Heurísticas de usabilidad
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        p.mb-3 Son principios establecidos para evaluar y mejorar la usabilidad de un diseño. Algunas de las más conocidas son las heurísticas de Nielsen, como:
+        .p-4.rounded-3(style="background-color: #e6f0fc ").mb-3
+          h5 Principios de la usabilidad
+          ul.lista-ul--color
+            li.d-flex
+              i.fas.fa-check-circle(style="color: #1169E3")
+              p.mb-0 #[b Visibilidad del estado del sistema:] informar al usuario sobre lo que está sucediendo mediante mensajes o indicadores.
+            li.d-flex
+              i.fas.fa-check-circle(style="color: #1169E3")
+              p.mb-0 #[b Control y libertad del usuario:] permitir a los usuarios deshacer y rehacer acciones.
+            li.d-flex
+              i.fas.fa-check-circle(style="color: #1169E3")
+              p.mb-0 #[b Prevención de errores:] evitar que ocurran errores mediante un diseño adecuado y proporcionar mensajes claros si ocurren.
+        p.mb-0 #[b Ejemplo:] una aplicación de compras en línea muestra un mensaje de confirmación antes de realizar un pago, permitiendo al usuario cancelar si cometió un error.
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/63.svg', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-2.d-none.d-lg-block: img(src='@/assets/curso/temas/64.png', alt='')
+      .col-lg-8
+        .rounded-3.p-4(style="background-color: #EDE9EC ")
+          .titulo-tres: h3.mb-0 Accesibilidad
+          p Asegurarse de que la aplicación sea utilizable por personas con discapacidades. Esto incluye soporte para lectores de pantalla, teclas de acceso rápido y contraste adecuado para personas con problemas de visión.
+            br
+            br
+            |#[b Ejemplo:] una aplicación de lectura de noticias permite cambiar el tamaño de la fuente y tiene un modo de alto contraste para mejorar la legibilidad.
+    Separador
+    #t_4_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 4.5	Patrones de interacción y diseño visual
+    TabsC.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Patrones de interacción")
+        .row
+          .col-lg-6.mb-4.mb-lg-0: img(src='@/assets/curso/temas/67.png', alt='')
+          .col-lg-6
+            h4 Patrones de interacción
+            p Los patrones de interacción son soluciones comunes a problemas recurrentes en el diseño de interfaces. Algunos ejemplos incluyen:
+            ul.lista-ul--color.ms-4
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #1169E3")
+                p.mb-0 #[b Menús desplegables:] utilizados para ahorrar espacio y mostrar opciones adicionales solo cuando el usuario lo necesita.
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #1169E3")
+                p.mb-0 #[b Arrastrar y soltar:] facilita la organización de elementos, como mover archivos en una carpeta.
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #1169E3")
+                p.mb-0 #[b Modalidades:] ventanas emergentes que requieren la atención del usuario, como las confirmaciones de eliminación.
+            p.mb-0 Ejemplo: un tablero Kanban en una aplicación de gestión de proyectos usa el patrón de arrastrar y soltar para mover tareas entre diferentes columnas.
+      .py-4.py-md-5(titulo="Principios de diseño visual")
+        .row
+          .col-lg-6.mb-4.mb-lg-0: img(src='@/assets/curso/temas/68.png', alt='')
+          .col-lg-6
+            h4 Principios de diseño visual
+            ul.lista-ul--color.ms-4
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #1169E3")
+                p.mb-0 #[b Contraste:] usar colores contrastantes para destacar elementos importantes, como botones de acción.
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #1169E3")
+                p.mb-0 #[b Alineación:] alinear elementos para que la interfaz se vea organizada y profesional.
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #1169E3")
+                p.mb-0 #[b Proximidad:] colocar elementos relacionados cerca unos de otros para que el usuario entienda su relación.
+            p #[b Ejemplo:] en una aplicación de finanzas, los ingresos y gastos se muestran con colores contrastantes (verde para ingresos y rojo para gastos), y los gráficos están alineados de manera ordenada.
 
 
 

@@ -103,9 +103,41 @@
                 th Salida
             tbody
               tr
-                td 
-                td 
-                td 
+                td Largo = 5 metros
+                  br
+                  |Ancho = 3 metros
+
+                td Área del rectángulo:
+                  br
+                  |Multiplicar el largo por el ancho
+                  br
+                  |Área = 5 m × 3 m
+
+                td 15 m²
+              tr
+                td Largo = 8 metros#[br]Ancho = 2 metros
+
+                td Área del rectángulo:#[br]Multiplicar el largo por el ancho#[br]Área = 8 m × 2 m
+
+                td 16 m²
+              tr
+                td Largo = 4.5 metros#[br]Ancho = 3.2 metros
+
+                td Área del rectángulo:#[br]Multiplicar el largo por el ancho#[br]Área = 4.5 m × 3.2 m
+
+                td 14.4 m²
+              tr
+                td Largo = 10 metros#[br]Ancho = 6 metros
+
+                td Área del rectángulo:#[br]Multiplicar el largo por el ancho#[br]Área = 10 m × 6 m
+
+                td 60 m²
+              tr
+                td Largo = 7.5 metros#[br]Ancho = 4 metros
+
+                td Área del rectángulo:#[br]Multiplicar el largo por el ancho#[br]Área = 7.5 m × 4 m
+
+                td 30 m²
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3	Fases de la resolución de problemas
