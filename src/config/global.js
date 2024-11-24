@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Desarrollo de algoritmos y prototipado de interfaces',
+    descripcionCurso:
+      'El presente componente aborda el desarrollo de algoritmos y el prototipado de interfaces centradas en el usuario. Se aprenderá a descomponer problemas, utilizar estructuras de control, representar soluciones con diagramas, optimizar algoritmos, y diseñar prototipos usables, integrando técnicas de validación para garantizar una experiencia fluida y efectiva en aplicaciones y sistemas digitales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
