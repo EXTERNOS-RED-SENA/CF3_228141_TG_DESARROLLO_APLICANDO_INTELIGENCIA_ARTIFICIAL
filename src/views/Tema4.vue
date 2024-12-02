@@ -77,7 +77,7 @@
                 p.mb-0 #[b Prototipos de baja fidelidad:] dibujos simples o bocetos en papel que representan la estructura básica de la interfaz.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 #[b Prototipos de media fidelidad:] mockups digitales que muestran más detalles, como la disposición de los elementos y algunos estilos.
+                p.mb-0 #[b Prototipos de media fidelidad:] #[em mockups] digitales que muestran más detalles, como la disposición de los elementos y algunos estilos.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
                 p.mb-0 #[b Prototipos de alta fidelidad:] representaciones casi completas de la aplicación, con colores, imágenes y funcionalidad simulada.

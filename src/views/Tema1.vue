@@ -40,7 +40,10 @@
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/8.png', alt='')
       .col-lg-8 
         .titulo-tres: h3.mb-0 Aplicación en la programación
-        p.mb-3 El pensamiento algorítmico también implica considerar la eficiencia de los algoritmos. Por ejemplo, en lugar de sumar manualmente 1 + 2 + 3 + … + 100, podrías usar una fórmula matemática directa: que es mucho más eficiente.
+        p.mb-3 El pensamiento algorítmico también implica considerar la eficiencia de los algoritmos. Por ejemplo, en lugar de sumar manualmente 1 + 2 + 3 + … + 100, podrías usar una fórmula matemática directa:
+          
+          <math xmlns="http://www.w3.org/1998/Math/MathML" class='mx-2'><mi>s</mi><mi>u</mi><mi>m</mi><mi>a</mi><mo>&#xA0;</mo><mo>=</mo><mfrac><mrow><mn>100</mn><mo>&#xd7;</mo><mn>101</mn></mrow><mn>2</mn></mfrac></math>
+          | que es mucho más eficiente.
         .p-3(style="background-color: #E6F0FC")
           p.mb-3 #[b Ejemplo:] diseñar un programa que verifique si un número es primo. El pensamiento algorítmico te guiará a:
           .ms-2
@@ -179,6 +182,9 @@
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
                 p.mb-0 #[b Ejemplo:] si el programa de clasificación funciona pero es lento con listas grandes, podrías considerar algoritmos más eficientes como el método de ordenación rápida (quick sort).
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.4 Técnicas de descomposición y abstracción
+    p.mb-4 Estas técnicas sirven para simplificar problemas complejos y enfocarse en los aspectos más importantes.
     TabsC.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Descomposición")
         .row

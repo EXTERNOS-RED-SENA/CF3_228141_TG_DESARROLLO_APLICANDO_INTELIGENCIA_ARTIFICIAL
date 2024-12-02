@@ -78,21 +78,21 @@
               .col-5: img(src='@/assets/curso/temas/38.png', alt='')
             p.mb-4 Este es un ejemplo de una estructura secuencial, donde cada línea se ejecuta en orden.
           div(titulo="Estructuras condicionales")
-            p.mb-4 Permiten ejecutar diferentes bloques de código en función de si una condición se cumple o no. Las estructuras condicionales básicas incluyen if, else, y elif.
+            p.mb-4 Permiten ejecutar diferentes bloques de código en función de si una condición se cumple o no. Las estructuras condicionales básicas incluyen #[em if], #[em else], y #[em elif].
               br
               br
               |#[b Ejemplo:] un algoritmo que verifica si una persona es mayor de edad:
             .row.justify-content-center.mb-4
               .col-5: img(src='@/assets/curso/temas/39.png', alt='')
             p.mb-4 En este ejemplo, la estructura condicional verifica si edad es mayor o igual a 18. Si la condición es verdadera, se ejecuta el primer bloque; si no, se ejecuta el segundo.
-          div(titulo="Estructuras condicionales")
-            p.mb-4 Se utilizan para repetir un bloque de código varias veces. Los bucles más comunes son for y while.
+          div(titulo="Estructuras cíclicas")
+            p.mb-4 Se utilizan para repetir un bloque de código varias veces. Los bucles más comunes son #[em for] y #[em while].
               br
               br
-              |#[b Ejemplo de bucle for:] un algoritmo que imprima los números del 1 al 10:
+              |#[b Ejemplo de bucle #[em for]:] un algoritmo que imprima los números del 1 al 10:
             .row.justify-content-center.mb-4
               .col-5: img(src='@/assets/curso/temas/40.png', alt='')
-            p.mb-4 #[b Ejemplo de bucle while:] un algoritmo que cuente hasta que el usuario introduzca un número mayor que 10:
+            p.mb-4 #[b Ejemplo de bucle #[em while]:] un algoritmo que cuente hasta que el usuario introduzca un número mayor que 10:
             .row.justify-content-center.mb-4
               .col-5: img(src='@/assets/curso/temas/41.png', alt='')
     Separador

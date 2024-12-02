@@ -13,7 +13,7 @@
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1	Concepto y tipos de algoritmos
-    .titulo-tres: h3.mb-0 Concepto de algoritmo
+    .titulo-tres: h3.mb-0 Tipos de algortimos
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4 Es útil escribir una declaración del problema que explique claramente lo que se debe lograr. Esto ayuda a estructurar la solución.
@@ -88,37 +88,45 @@
                 th Descripción
             tbody
               tr
-                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t00.svg', alt='' style='width: 130px')
                 td Línea de flujo
                 td Indica la secuencia de operaciones dentro de un proceso. Las flechas se utilizan si el flujo no sigue el orden estándar de arriba hacia abajo o de izquierda a derecha.
               tr
-                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t0.svg', alt='' style='width: 130px')
                 td Terminal
                 td Representa el inicio o el fin de un programa o subproceso. Generalmente, contiene palabras como "Inicio" o "Fin", o frases que señalan el comienzo o la finalización de un proceso, como "presentar consulta" o "recibir producto".
               tr
-                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t1.svg', alt='' style='width: 130px')
                 td Proceso o actividad
                 td Denota un conjunto de operaciones que alteran el valor, forma o ubicación de los datos.
               tr
-                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t2.svg', alt='' style='width: 130px')
                 td Decisión
                 td Muestra una operación condicional que decide cuál de los dos caminos tomará el programa. Suele ser una pregunta con respuesta de sí/no o una evaluación de verdadero/falso.
               tr
-                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t3.svg', alt='' style='width: 130px')
                 td Entrada
                 td Describe el proceso de introducir datos, ya sea mediante la inserción o el ingreso de información.
               tr
-                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t4.svg', alt='' style='width: 130px')
                 td Salida
                 td Indica el proceso de producir datos o mostrar resultados.
               tr
-                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t5.svg', alt='' style='width: 130px')
                 td Anotación (comentario)
                 td Proporciona información adicional sobre un paso específico en el programa.
               tr
-                td: img(src='@/assets/curso/temas/t1.svg', alt='')
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t6.svg', alt='' style='width: 130px')
                 td Proceso predefinido
                 td Refleja un proceso ya definido en otra sección del diagrama, referenciado por su nombre.
+              tr
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t7.svg', alt='' style='width: 130px')
+                td Conector de página
+                td Pares de conectores etiquetados que sustituyen líneas extensas o complejas dentro de la misma página del diagrama.
+              tr
+                td.d-flex: img.m-auto(src='@/assets/curso/temas/t8.svg', alt='' style='width: 130px')
+                td Conector fuera de página
+                td Etiqueta de conector empleada cuando el flujo del diagrama continúa en otra página.
     .row.justify-content-center.mb-5
       .col-lg-9
         .p-4(style="background-color:#e6f0fc ")
@@ -144,25 +152,25 @@
           ul.lista-ul--color
             li.d-flex.tarjeta.p-1.px-2.bg-white.rounded-3
               i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Enteros (int): números sin decimales, utilizados en cálculos precisos.
+              p.mb-0 Enteros #[em (int)]: números sin decimales, utilizados en cálculos precisos.
                 br
                 |Ejemplo: la edad de una persona se almacena como un número entero.
 
             li.d-flex.tarjeta.p-1.px-2.bg-white.rounded-3
               i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Reales o flotantes (float): números con decimales, útiles para cálculos que requieren precisión decimal.
+              p.mb-0 Reales o flotantes #[em (float)]: números con decimales, útiles para cálculos que requieren precisión decimal.
                 br
                 |Ejemplo: el peso de un objeto se almacena como un número real.
 
             li.d-flex.tarjeta.p-1.px-2.bg-white.rounded-3
               i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Cadenas (string): una secuencia de caracteres utilizada para almacenar texto.
+              p.mb-0 Cadenas #[em (string)]: una secuencia de caracteres utilizada para almacenar texto.
                 br
                 |Ejemplo: el nombre de un estudiante se almacena como una cadena.
 
             li.d-flex.tarjeta.p-1.px-2.bg-white.rounded-3
               i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Booleanos (bool): solo pueden tener dos valores: true o false. Son fundamentales en las estructuras de control como las condiciones.
+              p.mb-0 Booleanos #[em (bool)]: solo pueden tener dos valores: true o false. Son fundamentales en las estructuras de control como las condiciones.
                 br
                 |Ejemplo: una variable esMayorDeEdad puede ser true si la edad es 18 o más, y false en caso contrario.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/24.png', alt='')
@@ -241,7 +249,7 @@
             |#[b Ejemplo:] 7 > 3 es true, mientras que 5 == 10 es false.
             br
             br
-            |#[b Uso en condiciones:] los operadores relacionales son fundamentales para controlar el flujo del programa mediante instrucciones condicionales como if y while.
+            |#[b Uso en condiciones:] los operadores relacionales son fundamentales para controlar el flujo del programa mediante instrucciones condicionales como #[em if] y #[em while].
     .titulo-tres: h3.mb-0 Operadores lógicos
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
@@ -250,7 +258,7 @@
           p.mb-0 #[b Ejemplo:] #[em true] && #[em false] es #[em false] (porque ambos deben ser #[em true]), y #[em true] || #[em false] es #[em true] (porque al menos uno debe ser #[em true]).
             br
             br
-            |#[b Ejemplo:] si deseas verificar si un número es positivo y menor que 100, puedes usar if (numero > 0 && numero < 100).
+            |#[b Ejemplo:] si deseas verificar si un número es positivo y menor que 100, puedes usar #[em if] (numero > 0 && numero < 100).
       .col-lg-4.col-7: img(src='@/assets/curso/temas/30.svg', alt='')
     .titulo-tres: h3.mb-0 Acumuladores y estructuras básicas
     p.mb-4 Un acumulador es una variable que acumula resultados a lo largo de un bucle.
@@ -267,8 +275,8 @@
           p #[b Inicialización de acumuladores:] se declaran dos variables, suma_pares y suma_impares, y se inicializan en 0. Estas variables actuarán como acumuladores que almacenarán la suma de los números pares y la suma de los números impares, respectivamente.
             br
             br
-            |#[b Bucle for:] se utiliza un bucle for para iterar a través de los números del 1 al 20. La función range(1, 21) genera una secuencia de números desde 1 hasta 20.
-          p.mb-3 #[b Condicional if:]
+            |#[b Bucle #[em for]:] se utiliza un bucle #[em for] para iterar a través de los números del 1 al 20. La función range(1, 21) genera una secuencia de números desde 1 hasta 20.
+          p.mb-3 #[b Condicional #[em if]:]
           ul.lista-ul--color
             li.d-flex
               i.fas.fa-check-circle(style="color: #1169E3")
