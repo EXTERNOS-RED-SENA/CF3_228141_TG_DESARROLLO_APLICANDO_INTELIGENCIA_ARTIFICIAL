@@ -13,7 +13,7 @@
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1	Concepto y tipos de algoritmos
-    .titulo-tres: h3.mb-0 Tipos de algortimos
+    .titulo-tres: h3.mb-0 Tipos de algoritmos
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4 Es útil escribir una declaración del problema que explique claramente lo que se debe lograr. Esto ayuda a estructurar la solución.
@@ -44,7 +44,7 @@
           div(titulo="Algoritmos condicionales")
             p.mb-0 Incluyen decisiones basadas en condiciones que afectan el flujo de ejecución. Estos algoritmos permiten manejar diferentes situaciones en función de las entradas o el estado del programa.
               br
-              |#[b Ejemplo:] un programa de control de clima que enciende el aire acondicionado si la temperatura supera los 25°C y la calefacción si la temperatura baja de los 15°C.
+              |#[b Ejemplo:] un programa de control de clima que enciende el aire acondicionado si la temperatura supera los 25 °C y la calefacción si la temperatura baja de los 15 °C.
           div(titulo="Algoritmos iterativos")
             p.mb-0 Utilizan bucles para repetir ciertas instrucciones hasta que se cumpla una condición específica. Estos algoritmos son eficientes para procesar grandes volúmenes de datos.
               br
@@ -139,7 +139,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 1.
           span Ejemplo de pseudocódigo y diagrama de flujo
-        img(src='@/assets/curso/temas/23.svg', alt='').mb-2
+        img(src='@/assets/curso/temas/23.svg', alt='La Figura 1 se denomina «Ejemplo de pseudocódigo y diagrama de flujo» y presenta instrucciones para resolver un problema y un esquema asociado que recibe tres valores y determina cuál de ellos es el mayor y el menor utilizando decisiones condicionales para comparar los valores y muestra el resultado correspondiente en función de las comparaciones realizadas').mb-2
         figcaption Fuente: OIT, 2024.
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -152,25 +152,25 @@
           ul.lista-ul--color
             li.d-flex.tarjeta.p-1.px-2.bg-white.rounded-3
               i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Enteros #[em (int)]: números sin decimales, utilizados en cálculos precisos.
+              p.mb-0 Enteros #[em.fw-bold (int)]: números sin decimales, utilizados en cálculos precisos.
                 br
                 |Ejemplo: la edad de una persona se almacena como un número entero.
 
             li.d-flex.tarjeta.p-1.px-2.bg-white.rounded-3
               i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Reales o flotantes #[em (float)]: números con decimales, útiles para cálculos que requieren precisión decimal.
+              p.mb-0 Reales o flotantes #[em.fw-bold (float)]: números con decimales, útiles para cálculos que requieren precisión decimal.
                 br
                 |Ejemplo: el peso de un objeto se almacena como un número real.
 
             li.d-flex.tarjeta.p-1.px-2.bg-white.rounded-3
               i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Cadenas #[em (string)]: una secuencia de caracteres utilizada para almacenar texto.
+              p.mb-0 Cadenas #[em.fw-bold (string)]: una secuencia de caracteres utilizada para almacenar texto.
                 br
                 |Ejemplo: el nombre de un estudiante se almacena como una cadena.
 
             li.d-flex.tarjeta.p-1.px-2.bg-white.rounded-3
               i.fas.fa-check-circle(style="color: #1169E3")
-              p.mb-0 Booleanos #[em (bool)]: solo pueden tener dos valores: true o false. Son fundamentales en las estructuras de control como las condiciones.
+              p.mb-0 Booleanos #[em.fw-bold (bool)]: solo pueden tener dos valores: true o false. Son fundamentales en las estructuras de control como las condiciones.
                 br
                 |Ejemplo: una variable esMayorDeEdad puede ser true si la edad es 18 o más, y false en caso contrario.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/24.png', alt='')
@@ -212,7 +212,7 @@
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 #[b Aritméticos:] +, -, *, /, % (modulo)
+                p.mb-0 #[b Aritméticos:] +, -, *, /, % (módulo)
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
                 p.mb-0 #[b Relacionales:] ==, !=, >, <, >=, <=
@@ -243,10 +243,10 @@
       .col-lg-9
         .p-4(style="background-color: #cff8de ")
           .titulo-tres: h3.mb-0 Operadores relacionales
-          p.mb-0 Comparan dos valores y devuelven un valor booleano (true o false).
+          p.mb-0 Comparan dos valores y devuelven un valor booleano (#[em true] o f#[em alse]).
             br
             br
-            |#[b Ejemplo:] 7 > 3 es true, mientras que 5 == 10 es false.
+            |#[b Ejemplo:] 7 > 3 es #[em true], mientras que 5 == 10 es #[em false].
             br
             br
             |#[b Uso en condiciones:] los operadores relacionales son fundamentales para controlar el flujo del programa mediante instrucciones condicionales como #[em if] y #[em while].
@@ -258,7 +258,7 @@
           p.mb-0 #[b Ejemplo:] #[em true] && #[em false] es #[em false] (porque ambos deben ser #[em true]), y #[em true] || #[em false] es #[em true] (porque al menos uno debe ser #[em true]).
             br
             br
-            |#[b Ejemplo:] si deseas verificar si un número es positivo y menor que 100, puedes usar #[em if] (numero > 0 && numero < 100).
+            |#[b Ejemplo:] si deseas verificar si un número es positivo y menor que 100, puedes usar #[em if] (número > 0 && número < 100).
       .col-lg-4.col-7: img(src='@/assets/curso/temas/30.svg', alt='')
     .titulo-tres: h3.mb-0 Acumuladores y estructuras básicas
     p.mb-4 Un acumulador es una variable que acumula resultados a lo largo de un bucle.
@@ -267,7 +267,26 @@
         .p-4(style="background-color: #dfe9ea ").rounded-3
           p.mb-3 #[b Ejemplo:] supongamos que queremos escribir un programa que calcule la suma de los números pares y la suma de los números impares del 1 al 20, y luego muestre ambos resultados.
           .row.justify-content-center.mb-5
-            .col-lg-5.col-7: img(src='@/assets/curso/temas/31.png', alt='')
+            .col-lg-8
+              .tarjeta.p-4(style="background-color: #1F3452 ")
+                pre.text-white
+                  code # Inicializamos los acumuladores
+                    |suma_pares = 0
+                    |suma_impares = 0
+
+                    |# Usamos un bucle para recorrer los números del 1 al 20
+                    |for numero in range(1, 21):
+                    |    if numero % 2 == 0:  # Verificamos si el número es par
+                    |        suma_pares += numero  # Sumamos el número par al acumulador de pares
+                    |    else:
+                    |        suma_impares += numero  # Sumamos el número impar al acumulador de impares
+                    |
+                    |# Imprimimos los resultados
+                    |print("La suma de los números pares del 1 al 20 es:", suma_pares)
+                    |print("La suma de los números impares del 1 al 20 es:", suma_impares)
+
+
+            
     .row.justify-content-center.mb-5
       .col-lg-5.mb-lg-0.mb-3
         .rounded-3.p-3(style="background-color: #cfe1fa")

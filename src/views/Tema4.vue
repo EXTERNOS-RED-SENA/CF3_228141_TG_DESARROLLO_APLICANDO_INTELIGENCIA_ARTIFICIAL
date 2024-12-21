@@ -17,7 +17,7 @@
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 2.
                 span  Interfaz de usuario
-              img(src='@/assets/curso/temas/49.png', alt='')
+              img(src='@/assets/curso/temas/49.png', alt='La Figura 2 se denomina «Interfaz de usuario» y muestra elementos que se pueden incluir en ella, tales como gráficos, pictogramas, estereotipos y simbología.')
               figcaption Fuente: https://www.efectodigital.online/single-post/2018/04/18/dise%C3%B1o-de-interfaz-de-usuario-ui
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -41,7 +41,7 @@
             li.d-flex
               i.fas.fa-check-circle(style="color: #1169E3")
               p.mb-0 #[b Prevención de errores:] la interfaz debe minimizar las posibilidades de que ocurran errores, y cuando ocurran, debe permitir que se solucionen fácilmente.
-        p.mb-0 #[b Ejemplo:] Un formulario de registro con instrucciones claras, validación en tiempo real y sugerencias de corrección de errores mejora la usabilidad porque reduce la frustración del usuario.
+        p.mb-0 #[b Ejemplo:] un formulario de registro con instrucciones claras, validación en tiempo real y sugerencias de corrección de errores mejora la usabilidad porque reduce la frustración del usuario.
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/50.png', alt='')
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/51.png', alt='')

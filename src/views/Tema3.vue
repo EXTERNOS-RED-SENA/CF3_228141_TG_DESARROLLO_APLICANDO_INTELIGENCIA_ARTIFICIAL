@@ -75,7 +75,16 @@
               br
               |#[b Ejemplo:] un algoritmo que imprima los números del 1 al 5:
             .row.justify-content-center.mb-4
-              .col-5: img(src='@/assets/curso/temas/38.png', alt='')
+              .col-lg-8
+                .tarjeta.p-4(style="background-color: #1F3452 ")
+                  pre.text-white
+                    code print(1)
+                      br
+                      |print(2)
+                      |print(3)
+                      |print(4)
+                      |print(5)
+
             p.mb-4 Este es un ejemplo de una estructura secuencial, donde cada línea se ejecuta en orden.
           div(titulo="Estructuras condicionales")
             p.mb-4 Permiten ejecutar diferentes bloques de código en función de si una condición se cumple o no. Las estructuras condicionales básicas incluyen #[em if], #[em else], y #[em elif].
@@ -83,7 +92,16 @@
               br
               |#[b Ejemplo:] un algoritmo que verifica si una persona es mayor de edad:
             .row.justify-content-center.mb-4
-              .col-5: img(src='@/assets/curso/temas/39.png', alt='')
+              .col-lg-8
+                .tarjeta.p-4(style="background-color: #1F3452 ")
+                  pre.text-white
+                    code edad = int(input("Introduce tu edad: "))
+                      br
+                      |if edad >= 18:
+                      |    print("Eres mayor de edad.")
+                      |else:
+                      |    print("Eres menor de edad.")
+
             p.mb-4 En este ejemplo, la estructura condicional verifica si edad es mayor o igual a 18. Si la condición es verdadera, se ejecuta el primer bloque; si no, se ejecuta el segundo.
           div(titulo="Estructuras cíclicas")
             p.mb-4 Se utilizan para repetir un bloque de código varias veces. Los bucles más comunes son #[em for] y #[em while].
@@ -91,10 +109,27 @@
               br
               |#[b Ejemplo de bucle #[em for]:] un algoritmo que imprima los números del 1 al 10:
             .row.justify-content-center.mb-4
-              .col-5: img(src='@/assets/curso/temas/40.png', alt='')
+              .col-lg-8
+                .tarjeta.p-4(style="background-color: #1F3452 ")
+                  pre.text-white
+                    code edad = int(input("Introduce tu edad: "))
+                      br
+                      |if edad >= 18:
+                      |    print("Eres mayor de edad.")
+                      |else:
+                      |    print("Eres menor de edad.")
+
             p.mb-4 #[b Ejemplo de bucle #[em while]:] un algoritmo que cuente hasta que el usuario introduzca un número mayor que 10:
             .row.justify-content-center.mb-4
-              .col-5: img(src='@/assets/curso/temas/41.png', alt='')
+              .col-lg-8
+                .tarjeta.p-4(style="background-color: #1F3452 ")
+                  pre.text-white
+                    code numero = 0
+                      br
+                      |while numero <= 10:
+                      |    numero = int(input("Introduce un número mayor que 10: "))
+                      |print("¡Gracias!")
+
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.3	Arreglos, funciones y procedimientos
@@ -107,7 +142,17 @@
               br
               |#[b Ejemplo:] un algoritmo que almacena las calificaciones de los estudiantes y calcula el promedio:
             .row.justify-content-center.mb-4
-              .col-5: img(src='@/assets/curso/temas/42.png', alt='')
+              .col-lg-8
+                .tarjeta.p-4(style="background-color: #1F3452 ")
+                  pre.text-white
+                    code calificaciones = [85, 90, 78, 92, 88]
+                      br
+                      |suma = 0
+                      |for calificacion in calificaciones:
+                      |    suma += calificacion
+                      |promedio = suma / len(calificaciones)
+                      |print("El promedio es:", promedio)
+
             p.mb-4 En este ejemplo, calificaciones es un arreglo que almacena las notas, y el bucle for se utiliza para calcular la suma total.
           div(titulo="Funciones")
             p.mb-4 Las funciones son bloques de código que realizan una tarea específica y pueden reutilizarse en todo el programa. Una función puede recibir argumentos y devolver un valor.
@@ -115,7 +160,17 @@
               br
               |#[b Ejemplo:] un algoritmo que define una función para calcular el área de un círculo:
             .row.justify-content-center.mb-4
-              .col-5: img(src='@/assets/curso/temas/43.png', alt='')
+              .col-lg-8
+                .tarjeta.p-4(style="background-color: #1F3452 ")
+                  pre.text-white
+                    code def area_circulo(radio):
+                      br
+                      |    return 3.14159 * radio * radio
+
+                      |radio = float(input("Introduce el radio del círculo: "))
+                      |print("El área es:", area_circulo(radio))
+
+
             p.mb-4 En este ejemplo, area_circulo es una función que calcula el área usando el radio proporcionado y devuelve el resultado.
           div(titulo="Procedimientos")
             p.mb-4 A diferencia de las funciones, los procedimientos no devuelven un valor. Se utilizan para ejecutar una secuencia de acciones.
@@ -123,7 +178,15 @@
               br
               |#[b Ejemplo:] un algoritmo que imprime un mensaje de bienvenida:
             .row.justify-content-center.mb-4
-              .col-5: img(src='@/assets/curso/temas/44.png', alt='')
+              .col-lg-8
+                .tarjeta.p-4(style="background-color: #1F3452 ")
+                  pre.text-white
+                    code def imprimir_bienvenida():
+                      br
+                      |    print("Bienvenido al sistema de gestión de inventarios.")
+
+                      |imprimir_bienvenida()
+
             p.mb-4 Aquí, imprimir_bienvenida es un procedimiento que simplemente muestra un mensaje.
       .col-lg-4.d-none.d-lg-block: img(src='@/assets/curso/temas/45.png', alt='')
     Separador

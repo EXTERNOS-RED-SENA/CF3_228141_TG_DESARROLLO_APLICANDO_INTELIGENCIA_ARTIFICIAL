@@ -181,7 +181,7 @@
                 p.mb-0 Se prueba el programa con diferentes datos de entrada para asegurarse de que funciona correctamente y se optimiza si es necesario.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 #[b Ejemplo:] si el programa de clasificación funciona pero es lento con listas grandes, podrías considerar algoritmos más eficientes como el método de ordenación rápida (quick sort).
+                p.mb-0 #[b Ejemplo:] si el programa de clasificación funciona pero es lento con listas grandes, podrías considerar algoritmos más eficientes como el método de ordenación rápida (#[em quick sort]).
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.4 Técnicas de descomposición y abstracción
     p.mb-4 Estas técnicas sirven para simplificar problemas complejos y enfocarse en los aspectos más importantes.
