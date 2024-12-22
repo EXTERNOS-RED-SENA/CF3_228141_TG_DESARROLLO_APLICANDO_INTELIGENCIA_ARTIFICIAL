@@ -148,7 +148,7 @@
     .row.justify-content-center.mb-5
       .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/12.png', alt='')
       .col-lg-9
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AccordionRED.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Análisis")
             ul.lista-ul--color
               li.d-flex
@@ -217,26 +217,12 @@
               br
               | #[b Ejemplo 2:] crear un sistema de gestión de estudiantes en una escuela. La descomposición separaría tareas como “registrar estudiantes”, “asignar cursos” y “calcular promedios”. La abstracción permitiría crear funciones generales sin preocuparse inicialmente por el almacenamiento de datos.
     
-            
-
-
-
-
-
-
-
-
-
 
 </template>
 
 <script>
-import TabsC from '../bootstrap/TabsC.vue'
 export default {
   name: 'Tema1',
-  components: {
-    TabsC,
-  },
   data: () => ({
     // variables de vue
   }),

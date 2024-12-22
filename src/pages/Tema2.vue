@@ -35,7 +35,7 @@
       .col-lg-3.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/19.svg', alt='')
       .col-lg-9
         .titulo-tres: h3.mb-0 Concepto de algoritmo
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AccordionRED.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Algoritmos secuenciales")
             p.mb-0 Se ejecutan de manera lineal, donde cada paso ocurre uno tras otro sin desviaciones. Son los más simples de entender.
               br

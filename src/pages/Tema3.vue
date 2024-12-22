@@ -68,7 +68,7 @@
     .row.justify-content-center.mb-5
       .col-lg-3.d-none.d-lg-block: img(src='@/assets/curso/temas/37.png', alt='')
       .col-lg-9
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AccordionRED.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Estructuras secuenciales")
             p.mb-4 Son las más simples y se ejecutan en el orden en que aparecen. Cada instrucción se ejecuta una después de la otra sin interrupciones.
               br
@@ -135,7 +135,7 @@
       h2 3.3	Arreglos, funciones y procedimientos
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AccordionRED.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Arreglos (listas o matrices)")
             p.mb-4 Los arreglos son estructuras de datos que almacenan múltiples valores en una sola variable. Los valores se almacenan en posiciones indexadas y pueden ser de cualquier tipo de datos.
               br
@@ -195,7 +195,7 @@
     p.mb-4 La validación de un algoritmo se usa para garantizar que funcione correctamente en todas las circunstancias previstas. Las pruebas de escritorio (o simulaciones) son una técnica para verificar el funcionamiento de un algoritmo sin ejecutarlo en una computadora.
     .mn.p-5.bg-slyder
       .tarjeta.bg-white.p-5
-        SlyderA(tipo='b')
+        CarouselRED(tipo='b')
           .row
             .col-lg-6.mb-4.mb-lg-0
               h5 Pruebas de escritorio
